@@ -1,0 +1,254 @@
+body {
+  margin: 0;
+  padding: 0px;
+  background: #ccc;
+  height: 100%;
+}
+ 
+
+.nav{
+    width: 100%;
+    background-color: #444;
+}
+
+.nav ul {
+  list-style: none;
+  text-align: center;
+  width: 98.7%;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  font-family: 'Oswald';
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+  margin: 2;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: black;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+ 
+  /* Options 2 - Float
+  .nav li {
+    float: left;
+  }
+  .nav ul {
+    overflow: auto;
+    width: 600px;
+    margin: 0 auto;
+  }
+  .nav {
+    background-color: #444;
+  }
+  */
+}
+
+hr.style1{
+    height: 8px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+    bottom: auto;
+    width: 101.2%;
+}
+
+.bg4{ 
+    display: block;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+AD{
+    position: absolute;
+    left: 40px;
+    top: 20px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #444;
+    color: #444;
+    text-align: center;
+}
+
+/* Gallery */
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: Arial;
+}
+
+/* Center website */
+.main {
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+
+/* Info Column */
+
+/* Content */
+.contentI {
+    background-color: white;
+    padding: 10px;
+}
+
+.columnI {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+/* Images Link- https://pixabay.com/en/fantasy-light-mood-sky-beautiful-2861107/ */
+
+/* Contact Page */
+
+
+
+/* Style inputs */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #444;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+}
+
+/* Style the container/contact section */
+.containerC {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-top: 340px;
+}
+
+/* Create two columns that float next to eachother */
+.columnC {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+.contentF {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10%;
+}
+    
+
+
+    
